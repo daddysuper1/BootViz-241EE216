@@ -21,7 +21,7 @@ done:
 
 
 message:
-    db 'Hello, Bootloader!', 0  ; 0 = null terminator
+    db 'Hello, Bootloader!', 0  
 
 
 times 510 - ($ - $$) db 0
